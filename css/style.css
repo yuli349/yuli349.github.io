@@ -1266,6 +1266,9 @@ details[open] {
     padding: 20px 10px;
     margin-right: 0;
   }
+  .form .form .btn {
+    padding: 15px 40px;
+  }
 
   footer {
     padding: 40px 0 20px;
@@ -1316,10 +1319,6 @@ details[open] {
     height: 24px;
     right: 10px;
     background-size: contain;
-  }
-  .nav__item {
-    margin-bottom: 15px;
-    line-height: 1.5;
   }
 
   .btn {

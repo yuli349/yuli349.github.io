@@ -1486,7 +1486,9 @@ details[open] {
       margin-right: 0;
     }
 
-
+    .form .btn {
+      padding: 15px 40px;
+    }
   }
 
   footer {
@@ -1544,10 +1546,10 @@ details[open] {
       background-size: contain;
     }
 
-    &__item {
-      margin-bottom: 15px;
-      line-height: 1.5;
-    }
+    //&__item {
+    //  margin-bottom: 15px;
+    //  line-height: 1.5;
+    //}
 
 
   }
