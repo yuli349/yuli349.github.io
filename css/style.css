@@ -1266,7 +1266,7 @@ details[open] {
     padding: 20px 10px;
     margin-right: 0;
   }
-  .form .form .btn {
+  .form .btn {
     padding: 15px 40px;
   }
 
@@ -1353,6 +1353,9 @@ details[open] {
 
   .header__left {
     position: relative;
+  }
+  .header__title br {
+    display: inline-block;
   }
 
   .services {
@@ -1482,6 +1485,11 @@ details[open] {
 
   input::placeholder {
     font-size: 15px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .header__title {
+    font-size: 21px;
   }
 }
 

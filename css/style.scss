@@ -1486,7 +1486,7 @@ details[open] {
       margin-right: 0;
     }
 
-    .form .btn {
+    .btn {
       padding: 15px 40px;
     }
   }
@@ -1546,11 +1546,6 @@ details[open] {
       background-size: contain;
     }
 
-    //&__item {
-    //  margin-bottom: 15px;
-    //  line-height: 1.5;
-    //}
-
 
   }
 
@@ -1591,6 +1586,10 @@ details[open] {
 
     &__left {
       position: relative;
+    }
+
+    &__title br {
+      display: inline-block;
     }
   }
 
@@ -1742,6 +1741,12 @@ details[open] {
 
   input::placeholder {
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .header__title {
+    font-size: 21px;
   }
 }
 
