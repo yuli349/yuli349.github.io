@@ -442,6 +442,7 @@ h1 {
 }
 .example summary {
   cursor: inherit;
+  display: flex;
 }
 .example__marker {
   width: 36px;
