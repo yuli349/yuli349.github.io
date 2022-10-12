@@ -71,7 +71,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0 70px;
+  padding: 20px 0 60px;
 }
 .nav__btn {
   display: none;
@@ -132,9 +132,9 @@ h1 {
 }
 
 .header__title {
-  line-height: 1.1;
-  font-size: 56px;
-  margin-bottom: 24px;
+  line-height: 56px;
+  font-size: 54px;
+  margin-bottom: 20px;
 }
 .header__content {
   display: flex;
@@ -144,7 +144,7 @@ h1 {
   padding-right: 20px;
 }
 .header__left {
-  margin-top: 26px;
+  margin-top: 20px;
   width: 404px;
 }
 .header__list {
