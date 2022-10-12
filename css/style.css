@@ -71,7 +71,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0 80px;
+  padding: 20px 0 70px;
 }
 .nav__btn {
   display: none;
@@ -132,9 +132,9 @@ h1 {
 }
 
 .header__title {
-  line-height: 1.2;
+  line-height: 1.1;
   font-size: 56px;
-  margin-bottom: 34px;
+  margin-bottom: 24px;
 }
 .header__content {
   display: flex;
@@ -148,7 +148,7 @@ h1 {
   width: 404px;
 }
 .header__list {
-  padding: 40px 0 46px 46px;
+  padding: 35px 0 40px 46px;
 }
 .header__item {
   position: relative;
@@ -605,10 +605,6 @@ details[open] {
     margin-left: 30px;
   }
 
-  header {
-    padding-bottom: 70px;
-  }
-
   h1 {
     line-height: 1.4;
     font-size: 40px;
@@ -627,9 +623,6 @@ details[open] {
     display: none;
   }
 
-  .services {
-    padding: 70px 0;
-  }
   .services__content {
     margin-top: 40px;
   }
@@ -656,9 +649,6 @@ details[open] {
     margin: 50px 0 40px;
   }
 
-  .advantages {
-    padding: 70px 0 55px;
-  }
   .advantages__text {
     font-size: 32px;
     line-height: 1.3;
@@ -684,7 +674,7 @@ details[open] {
   }
 
   .work {
-    padding: 60px 0 10px;
+    padding: 90px 0 30px;
   }
   .work__text-top {
     margin-bottom: 20px;
@@ -716,7 +706,7 @@ details[open] {
   }
 
   .example {
-    padding: 60px 0 30px;
+    padding: 90px 0 60px;
   }
   .example__title {
     padding: 40px 20px;
@@ -760,12 +750,9 @@ details[open] {
     margin-bottom: 60px;
   }
 
-  .form {
-    padding: 60px 0;
-  }
   .form__order {
     width: 470px;
-    padding: 30px 20px;
+    padding: 30px;
     margin-right: 0;
   }
   .form__left {
@@ -779,6 +766,26 @@ details[open] {
 
   footer {
     padding: 60px 0 20px;
+  }
+
+  input::-webkit-input-placeholder {
+    font-size: 20px;
+  }
+
+  input::-moz-placeholder {
+    font-size: 20px;
+  }
+
+  input:-ms-input-placeholder {
+    font-size: 20px;
+  }
+
+  input::-ms-input-placeholder {
+    font-size: 20px;
+  }
+
+  input::placeholder {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -861,7 +868,7 @@ details[open] {
   }
 
   header {
-    padding-bottom: 20px;
+    padding-bottom: 70px;
   }
 
   .header__title {
@@ -889,7 +896,7 @@ details[open] {
   }
 
   .services {
-    padding: 50px 0;
+    padding: 70px 0;
   }
   .services__content {
     margin-top: 30px;
@@ -922,7 +929,7 @@ details[open] {
   }
 
   .advantages {
-    padding: 50px 0 35px;
+    padding: 70px 0 55px;
   }
   .advantages__text {
     font-size: 26px;
@@ -942,7 +949,7 @@ details[open] {
   }
 
   .work {
-    padding: 50px 0 30px;
+    padding: 60px 0 40px;
   }
   .work__block {
     margin-bottom: 20px;
@@ -995,7 +1002,7 @@ details[open] {
   }
 
   .example {
-    padding: 50px 0 20px;
+    padding: 60px 0 40px;
   }
   .example__title {
     font-size: 28px;
@@ -1024,14 +1031,14 @@ details[open] {
   }
 
   .form {
-    padding: 50px 0;
+    padding: 60px 0;
   }
   .form__left {
     margin-right: 30px;
   }
 
   footer {
-    padding: 50px 0 20px;
+    padding: 60px 0 20px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1049,7 +1056,7 @@ details[open] {
   }
 
   .nav {
-    padding: 20px 0 30px;
+    padding: 20px 0 50px;
   }
   .nav__logo img {
     width: 46px;
@@ -1060,7 +1067,7 @@ details[open] {
   }
 
   header {
-    padding-bottom: 40px;
+    padding-bottom: 50px;
   }
   header .only-desktop {
     display: block;
@@ -1088,7 +1095,7 @@ details[open] {
     max-width: 200px;
   }
   .header__list {
-    padding: 20px 0 26px 20px;
+    padding: 30px 0 36px 20px;
     line-height: 1.5;
   }
   .header__item:before {
@@ -1104,11 +1111,11 @@ details[open] {
   h1 {
     line-height: 1.4;
     font-size: 22px;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
   }
 
   .services {
-    padding: 40px 0;
+    padding: 50px 0;
   }
   .services__block p {
     min-height: auto;
@@ -1132,7 +1139,7 @@ details[open] {
   }
 
   .advantages {
-    padding: 40px 0 25px;
+    padding: 50px 0 35px;
   }
   .advantages__text {
     font-size: 19px;
@@ -1150,7 +1157,7 @@ details[open] {
   }
 
   .work {
-    padding: 40px 0 25px;
+    padding: 50px 0 35px;
   }
   .work__block-right:after, .work__block-left:after {
     display: none;
@@ -1198,7 +1205,7 @@ details[open] {
   }
 
   .example {
-    padding: 40px 0 25px;
+    padding: 50px 0 35px;
   }
   .example__block-right .example__img, .example__block-left .example__img {
     display: none;
@@ -1253,7 +1260,7 @@ details[open] {
   }
 
   .form {
-    padding: 40px 0;
+    padding: 50px 0;
   }
   .form__left {
     display: none;
@@ -1263,7 +1270,7 @@ details[open] {
   }
   .form__order {
     width: 420px;
-    padding: 20px 10px;
+    padding: 20px;
     margin-right: 0;
   }
   .form .btn {
@@ -1271,7 +1278,7 @@ details[open] {
   }
 
   footer {
-    padding: 40px 0 20px;
+    padding: 50px 0 20px;
   }
 
   input::-webkit-input-placeholder {
@@ -1300,9 +1307,6 @@ details[open] {
     line-height: 19px;
   }
 
-  .nav {
-    padding: 10px 0 20px;
-  }
   .nav__btn {
     width: 34px;
     height: 24px;
@@ -1335,9 +1339,6 @@ details[open] {
     padding: 0 10px;
   }
 
-  header {
-    padding-bottom: 30px;
-  }
   header .only-desktop {
     display: none;
   }
@@ -1358,13 +1359,10 @@ details[open] {
     display: inline-block;
   }
 
-  .services {
-    padding: 30px 0;
-  }
   .services__block {
     width: 280px;
     margin: 0 auto 10px;
-    padding: 15px 10px;
+    padding: 10px;
   }
   .services__red-text {
     font-size: 24px;
@@ -1376,7 +1374,7 @@ details[open] {
   }
 
   .advantages {
-    padding: 30px 0 20px;
+    padding: 50px 0 40px;
   }
   .advantages__text {
     font-size: 17px;
@@ -1398,10 +1396,11 @@ details[open] {
   }
 
   .work {
-    padding: 30px 0 20px;
+    padding: 50px 0 40px;
   }
   .work__block {
-    padding: 15px 10px;
+    padding: 10px;
+    margin-bottom: 10px;
   }
   .work__text-bottom span:last-of-type {
     display: flex;
@@ -1435,7 +1434,7 @@ details[open] {
   }
 
   .example {
-    padding: 30px 0 20px;
+    padding: 50px 0 40px;
   }
   .example__title p:last-of-type {
     padding: 0 35px 0 0;
@@ -1451,17 +1450,15 @@ details[open] {
     margin-bottom: 10px;
   }
 
-  .form {
-    padding: 30px 0;
-  }
   .form__order {
     width: 100%;
-    padding: 20px 5px;
+    padding: 17px 15px;
   }
   .form .inp {
     height: 56px;
     font-size: 15px;
-    padding: 15px 5px;
+    padding: 15px 10px;
+    margin-bottom: 17px;
   }
   .form__right {
     width: 100%;

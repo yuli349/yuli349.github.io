@@ -74,7 +74,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0 80px;
+  padding: 20px 0 70px;
 
   &__btn {
     display: none;
@@ -144,9 +144,9 @@ h1 {
 .header {
 
   &__title {
-    line-height: 1.2;
+    line-height: 1.1;
     font-size: 56px;
-    margin-bottom: 34px;
+    margin-bottom: 24px;
   }
 
   &__content {
@@ -164,7 +164,7 @@ h1 {
   }
 
   &__list {
-    padding: 40px 0 46px 46px;
+    padding: 35px 0 40px 46px;
   }
 
   &__item {
@@ -688,10 +688,6 @@ details[open] {
     }
   }
 
-  header {
-    padding-bottom: 70px;
-  }
-
   h1 {
     line-height: 1.4;
     font-size: 40px;
@@ -714,7 +710,6 @@ details[open] {
   }
 
   .services {
-    padding: 70px 0;
 
     &__content {
       margin-top: 40px;
@@ -748,7 +743,6 @@ details[open] {
   }
 
   .advantages {
-    padding: 70px 0 55px;
 
     &__text {
       font-size: 32px;
@@ -781,7 +775,7 @@ details[open] {
   }
 
   .work {
-    padding: 60px 0 10px;
+    padding: 90px 0 30px;
 
     &__text-top {
       margin-bottom: 20px;
@@ -819,7 +813,7 @@ details[open] {
   }
 
   .example {
-    padding: 60px 0 30px;
+    padding: 90px 0 60px;
 
     &__title {
       padding: 40px 20px;
@@ -875,11 +869,10 @@ details[open] {
   }
 
   .form {
-    padding: 60px 0;
 
     &__order {
       width: 470px;
-      padding: 30px 20px;
+      padding: 30px;
       margin-right: 0;
     }
 
@@ -896,6 +889,26 @@ details[open] {
 
   footer {
     padding: 60px 0 20px;
+  }
+
+  input::-webkit-input-placeholder {
+    font-size: 20px;
+  }
+
+  input::-moz-placeholder {
+    font-size: 20px;
+  }
+
+  input:-ms-input-placeholder {
+    font-size: 20px;
+  }
+
+  input::-ms-input-placeholder {
+    font-size: 20px;
+  }
+
+  input::placeholder {
+    font-size: 20px;
   }
 
 
@@ -988,7 +1001,7 @@ details[open] {
   }
 
   header {
-    padding-bottom: 20px;
+    padding-bottom: 70px;
   }
 
   .header {
@@ -1024,7 +1037,7 @@ details[open] {
   }
 
   .services {
-    padding: 50px 0;
+    padding: 70px 0;
 
     &__content {
       margin-top: 30px;
@@ -1064,7 +1077,7 @@ details[open] {
   }
 
   .advantages {
-    padding: 50px 0 35px;
+    padding: 70px 0 55px;
 
     &__text {
       font-size: 26px;
@@ -1089,7 +1102,7 @@ details[open] {
   }
 
   .work {
-    padding: 50px 0 30px;
+    padding: 60px 0 40px;
 
     &__block {
       margin-bottom: 20px;
@@ -1152,7 +1165,7 @@ details[open] {
   }
 
   .example {
-    padding: 50px 0 20px;
+    padding: 60px 0 40px;
 
     &__title {
       font-size: 28px;
@@ -1189,7 +1202,7 @@ details[open] {
   }
 
   .form {
-    padding: 50px 0;
+    padding: 60px 0;
 
     &__left {
       margin-right: 30px;
@@ -1197,7 +1210,7 @@ details[open] {
   }
 
   footer {
-    padding: 50px 0 20px;
+    padding: 60px 0 20px;
   }
 }
 
@@ -1216,7 +1229,7 @@ details[open] {
   }
 
   .nav {
-    padding: 20px 0 30px;
+    padding: 20px 0 50px;
 
     &__logo img {
       width: 46px;
@@ -1229,7 +1242,7 @@ details[open] {
   }
 
   header {
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 
     .only-desktop {
       display: block;
@@ -1265,7 +1278,7 @@ details[open] {
     }
 
     &__list {
-      padding: 20px 0 26px 20px;
+      padding: 30px 0 36px 20px;
       line-height: 1.5;
     }
 
@@ -1284,11 +1297,11 @@ details[open] {
   h1 {
     line-height: 1.4;
     font-size: 22px;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
   }
 
   .services {
-    padding: 40px 0;
+    padding: 50px 0;
 
     &__block p {
       min-height: auto;
@@ -1318,7 +1331,7 @@ details[open] {
   }
 
   .advantages {
-    padding: 40px 0 25px;
+    padding: 50px 0 35px;
 
     &__text {
       font-size: 19px;
@@ -1340,7 +1353,7 @@ details[open] {
   }
 
   .work {
-    padding: 40px 0 25px;
+    padding: 50px 0 35px;
 
     &__block-right:after,
     &__block-left:after {
@@ -1404,7 +1417,7 @@ details[open] {
   }
 
   .example {
-    padding: 40px 0 25px;
+    padding: 50px 0 35px;
 
     &__block-right &__img,
     &__block-left &__img {
@@ -1470,7 +1483,7 @@ details[open] {
   }
 
   .form {
-    padding: 40px 0;
+    padding: 50px 0;
 
     &__left {
       display: none;
@@ -1482,7 +1495,7 @@ details[open] {
 
     &__order {
       width: 420px;
-      padding: 20px 10px;
+      padding: 20px;
       margin-right: 0;
     }
 
@@ -1492,7 +1505,7 @@ details[open] {
   }
 
   footer {
-    padding: 40px 0 20px;
+    padding: 50px 0 20px;
   }
 
   input::-webkit-input-placeholder {
@@ -1523,7 +1536,6 @@ details[open] {
   }
 
   .nav {
-    padding: 10px 0 20px;
 
     &__btn {
       width: 34px;
@@ -1564,7 +1576,6 @@ details[open] {
   }
 
   header {
-    padding-bottom: 30px;
 
     .only-desktop {
       display: none;
@@ -1594,12 +1605,11 @@ details[open] {
   }
 
   .services {
-    padding: 30px 0;
 
     &__block {
       width: 280px;
       margin: 0 auto 10px;
-      padding: 15px 10px;
+      padding: 10px;
     }
 
     &__red-text {
@@ -1614,7 +1624,7 @@ details[open] {
   }
 
   .advantages {
-    padding: 30px 0 20px;
+    padding: 50px 0 40px;
 
     &__text {
       font-size: 17px;
@@ -1641,10 +1651,11 @@ details[open] {
   }
 
   .work {
-    padding: 30px 0 20px;
+    padding: 50px 0 40px;
 
     &__block {
-      padding: 15px 10px;
+      padding: 10px;
+      margin-bottom: 10px;
     }
 
     &__text-bottom span:last-of-type {
@@ -1685,7 +1696,7 @@ details[open] {
   }
 
   .example {
-    padding: 30px 0 20px;
+    padding: 50px 0 40px;
 
     &__title p:last-of-type {
       padding: 0 35px 0 0;
@@ -1705,17 +1716,17 @@ details[open] {
   }
 
   .form {
-    padding: 30px 0;
 
     &__order {
       width: 100%;
-      padding: 20px 5px;
+      padding: 17px 15px;
     }
 
     .inp {
       height: 56px;
       font-size: 15px;
-      padding: 15px 5px;
+      padding: 15px 10px;
+      margin-bottom: 17px;
     }
 
     &__right {
