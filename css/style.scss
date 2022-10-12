@@ -144,7 +144,7 @@ h1 {
 .header {
 
   &__title {
-    line-height: 56px;
+    line-height: 1.1;
     font-size: 54px;
     margin-bottom: 20px;
   }
@@ -1349,6 +1349,7 @@ details[open] {
 
     &__red-text {
       font-size: 22px;
+      margin-bottom: 0;
     }
   }
 
